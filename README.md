@@ -56,25 +56,18 @@ InceptionV3 showed robust learning and generalization capabilities across datase
 
 #### Contributors
 
-### Team Members
-1. Vandit Mehta
-   - Student ID: 40232414
-   - Email: mehtavandit2205@gmail.com
-2. Konark Shah
-   - Student ID: 40232277
-   - Email: Konarkshah2010@gmail.com
-3. Urvilkumar Patel
-   - Student ID: 40230630
-   - Email: patelurvil38@gmail.com
-4. Anurag Teckchandani
-   - Student ID: 40263724
-   - Email: anuragteckchandani@gmail.com
+| **Team Members**        | **Student ID** | **Email**                  |
+|-------------------------|----------------|----------------------------|
+| Vandit Mehta            | 40232414       | mehtavandit2205@gmail.com |
+| Konark Shah             | 40232277       | Konarkshah2010@gmail.com  |
+| Urvilkumar Patel        | 40230630       | patelurvil38@gmail.com     |
+| Anurag Teckchandani     | 40263724       | anuragteckchandani@gmail.com |
 
-### Lecturer
-- Dr. Mahdi S. Hosseini
-  - Email: mahdi.hosseini@concordia.ca
+| **Lecturer**            | **Email**                  |
+|-------------------------|----------------------------|
+| Dr. Mahdi S. Hosseini   | mahdi.hosseini@concordia.ca |
 
-### Teaching Assistant
-- Ahmed Alagha (Lead TA)
-  - Email: ahmed.alagha@mail.concordia.ca
+| **Teaching Assistant**  | **Email**                  |
+|-------------------------|----------------------------|
+| Ahmed Alagha (Lead TA)  | ahmed.alagha@mail.concordia.ca |
 
