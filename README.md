@@ -47,7 +47,7 @@ InceptionV3 showed robust learning and generalization capabilities across datase
 ## Project Run Requirements
 
 
-#### Training and Validation
+## Training and Validation
 
 We will train the model for 30 epochs with a batch size of 30 using stochastic gradient descent (SGD) optimizer with a learning rate of 0.001 and a momentum of 0.9. We will use the cross-entropy loss function and monitor the validation accuracy during training.
 
@@ -90,7 +90,7 @@ test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size, shuf
 
 5. Pass it to the epoch loop for training and validation.
 
-#### Source Code
+## Source Code
 
 Here are the links to each  of the folder containing the source code of the project
 
@@ -105,10 +105,10 @@ Here are the links to each  of the folder containing the source code of the proj
 #### Hyper Parameter Tuning Folder: https://github.com/mehtavandit/COMP6721-GroupP/tree/main/HyperParameter_Tuning
 
 
-#### Test Dataset
+## Test Dataset
 
 
-#### Contributors
+## Contributors
 
 | **Team Members**        | **Student ID** | **Email**                  |
 |-------------------------|----------------|----------------------------|
