@@ -51,10 +51,12 @@ InceptionV3 showed robust learning and generalization capabilities across datase
 
 We will train the model for 30 epochs with a batch size of 30 using stochastic gradient descent (SGD) optimizer with a learning rate of 0.001 and a momentum of 0.9. We will use the cross-entropy loss function and monitor the validation accuracy during training.
 
-1. Loading datasets using the steps in the .ipynb file load dataset from Dataset subdirectory.
+1. Loading datasets using the steps in the .ipynb file load dataset from kaggle.
 
 ```
-path = "../Datasets/dataset_5_classes/"
+train_data = datasets.ImageFolder(root=f"/kaggle/input/covid19-xray-two-proposed-databases/Datasets/5-classes/Train", transform=transform)
+val_data = datasets.ImageFolder(root=f"/kaggle/input/covid19-xray-two-proposed-databases/Datasets/5-classes/Val", transform=transform)
+test_data = datasets.ImageFolder(root=f"/kaggle/input/covid19-xray-two-proposed-databases/Datasets/5-classes/Test", transform=transform)
 ```
 
 2. Using transform function to pre-process and apply transformations on the dataset.
