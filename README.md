@@ -11,10 +11,16 @@ Pneumonia is a prevalent respiratory infection, often requiring chest X-rays for
 ### Datasets
 
 Three datasets were used, covering different lung conditions:
-1. Dataset 1: Pneumonia vs. Normal (5,863 images)
-2. Dataset 2: Covid-19, bacterial pneumonia, viral pneumonia, lung opacity, and normal cases (3,555 images)
-3. Dataset 3: NIH Chest X-rays dataset, 14 classes representing various lung diseases (large collection)
 
+1. Dataset 1: Pneumonia vs. Normal (5,863 images)
+   - **Source:** [Chest X-ray Images (Pneumonia) by Paul Mooney (2018)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
+2. Dataset 2: Covid-19, bacterial pneumonia, viral pneumonia, lung opacity, and normal cases (3,555 images)
+   - **Source:** [COVID-19 X-ray (2 proposed databases) by Edoardo Vantaggiato (2020)](https://www.kaggle.com/edoardovantaggiato/covid19-xray-two-proposed-databases)
+
+3. Dataset 3: NIH Chest X-rays dataset, 14 classes representing various lung diseases (large collection)
+   - **Source:** [NIH Chest X-rays by National Institutes of Health (NIH) (2017)](https://www.kaggle.com/datasets/nih-chest-xrays/data)
+     
 ### CNN Models
 
 Three CNN architectures were employed:
