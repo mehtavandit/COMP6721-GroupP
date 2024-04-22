@@ -105,9 +105,6 @@ Here are the links to each  of the folder containing the source code of the proj
 #### Hyper Parameter Tuning Folder: https://github.com/mehtavandit/COMP6721-GroupP/tree/main/HyperParameter_Tuning
 
 
-## Test Dataset
-
-
 ## Contributors
 
 | **Team Members**        | **Student ID** | **Email**                  |
