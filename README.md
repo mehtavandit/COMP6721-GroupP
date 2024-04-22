@@ -44,7 +44,7 @@ Stochastic Gradient Descent (SGD) optimizer was used with a learning rate of 0.0
 
 InceptionV3 showed robust learning and generalization capabilities across datasets. However, its computational complexity poses challenges for resource-constrained environments.
 
-#### Requirements
+## Project Run Requirements
 
 
 #### Training and Validation
@@ -90,13 +90,23 @@ test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size, shuf
 
 5. Pass it to the epoch loop for training and validation.
 
-#### Running Pre-trained Model
-
 #### Source Code
 
-#### Dataset
- 
-#### Acknowledgements
+Here are the links to each  of the folder containing the source code of the project
+
+#### 15 Class Folder: https://github.com/mehtavandit/COMP6721-GroupP/tree/main/15_Class_Large_Dataset
+
+#### 5 Class Folder: https://github.com/mehtavandit/COMP6721-GroupP/tree/main/5_Classes_Medium%20Dataset
+
+#### 2 Class Folder: https://github.com/mehtavandit/COMP6721-GroupP/tree/main/2_Classes_Small%20Dataset
+
+#### Transfer Learning Folder: https://github.com/mehtavandit/COMP6721-GroupP/tree/main/Transfer%20Learning
+
+#### Hyper Parameter Tuning Folder: https://github.com/mehtavandit/COMP6721-GroupP/tree/main/HyperParameter_Tuning
+
+
+#### Test Dataset
+
 
 #### Contributors
 
