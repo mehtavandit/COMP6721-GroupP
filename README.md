@@ -49,6 +49,45 @@ InceptionV3 showed robust learning and generalization capabilities across datase
 
 #### Training and Validation
 
+We will train the model for 30 epochs with a batch size of 30 using stochastic gradient descent (SGD) optimizer with a learning rate of 0.001 and a momentum of 0.9. We will use the cross-entropy loss function and monitor the validation accuracy during training.
+
+1. Loading datasets using the steps in the .ipynb file load dataset from Dataset subdirectory.
+
+```
+path = "../Datasets/dataset_5_classes/"
+```
+
+2. Using transform function to pre-process and apply transformations on the dataset.
+
+```
+transform = v2.Compose([
+    v2.Resize(256),   #must same as here
+    v2.CenterCrop(224),
+    v2.ToImage(),
+    v2.ToDtype(torch.float32, scale=True),
+    v2.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]) # normalization
+])
+```
+
+3. Split the dataset into 60:25:15
+
+```
+train_size = int(0.6 * len(dataset))
+val_size = int(0.15 * len(dataset))
+test_size = len(dataset)-train_size-val_size
+```
+
+4. Create train/validation loaders.
+
+```
+train_data, val_data, test_data = torch.utils.data.random_split(dataset, [train_size, val_size,test_size])
+train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size, shuffle=True)
+val_loader = torch.utils.data.DataLoader(val_data, batch_size=batch_size, shuffle=False)
+test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size, shuffle=False)
+```
+
+5. Pass it to the epoch loop for training and validation.
+
 #### Running Pre-trained Model
 
 #### Source Code
